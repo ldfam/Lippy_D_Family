@@ -1,0 +1,125 @@
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+#g-nav {
+    width: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #555;
+    height: 100%;
+    z-index: 5;
+    transition: all 0.5s;
+    transform: translate(100%, 0);
+}
+#g-nav.view{
+    transform: none
+}
+#modal_main{
+    display: none;
+}
+
+#g-nav-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.g-nav-item>a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-size: 1.5rem;
+}
+.g-nav-item>a:hover{
+    font-weight: bold;
+}
+.modaal-container {
+    background: transparent;
+}
+
+.l-sidenav__trigger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 1s 0.4s ease;
+}
+
+.l-sidenav__line {
+    position: absolute;
+    top: 50%;
+    left: 27.5%;
+    height: min(5.3vw, 20px);
+    transform: translate(0, -50%);
+    width: min(6.6vw, 25px);
+}
+
+.l-sidenav__line .line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    height: 1px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.l-sidenav__line .line:before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.l-sidenav__line .line::after {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.l-sidenav__line .line:before,
+.l-sidenav__line .line:after {
+    background: inherit;
+    content: "";
+    height: 1px;
+    transition: all 0.3s 0s ease;
+    width: 100%;
+}
+
+.l-sidenav__trigger__ttl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    transform: translate(-50%, -50%) rotate(90deg);
+    width: 308px;
+    font-size: 0.875rem;
+}
+.c-mitt {
+    display: inline-block;
+    transform: scaleY(0.8);
+}
+
+@media (min-width: 721px) {
+    .l-sidenav__trigger {
+        height: 100%;
+        transform: translate(0, 0);
+        width: 100%;
+    }
+
+    .l-sidenav__line {
+        height: 20px;
+        transform: translate(0, 0);
+        width: 25px;
+        position: absolute;
+        top: 22px;
+        left: 12px;
+    }
+}

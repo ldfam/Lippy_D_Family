@@ -1,0 +1,116 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#lippyD, #yt-content {
+    width: 100%;
+    background-color: #24262b;
+    color: #fff;
+}
+
+.lippyD-wrap {
+    max-width: 1200px;
+    margin: 40px auto 0;
+    padding: 0 80px;
+    text-align: center;
+}
+
+#yt-content .lippyD-wrap {
+    margin-bottom: 40px;
+}
+
+.yt-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 220px;
+    gap: 20px;
+}
+
+.yt-wrap iframe {
+    aspect-ratio: 16 / 9;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.scrolldown {
+    /*描画位置※位置は適宜調整してください*/
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    /*全体の高さ*/
+    height: 50px;
+}
+
+/*Scrollテキストの描写*/
+.scrolldown span {
+    /*描画位置*/
+    position: absolute;
+    left: -20px;
+    top: -25px;
+    /*テキストの形状*/
+    color: #eee;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+}
+
+/* 線の描写 */
+.scrolldown::after {
+    content: "";
+    /*描画位置*/
+    position: absolute;
+    top: 0;
+    /*線の形状*/
+    width: 1px;
+    height: 30px;
+    background: #eee;
+    /*線の動き1.4秒かけて動く。永遠にループ*/
+    animation: pathmove 1.4s ease-in-out infinite;
+    opacity: 0;
+}
+
+/*高さ・位置・透過が変化して線が上から下に動く*/
+@keyframes pathmove {
+    0% {
+        height: 0;
+        top: 0;
+        opacity: 0;
+    }
+
+    30% {
+        height: 30px;
+        opacity: 1;
+    }
+
+    100% {
+        height: 0;
+        top: 50px;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .yt-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 721px) {
+    .yt-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        /* grid-auto-rows: 320px; */
+    }
+
+    #yt-content .lippyD-wrap {
+        margin-bottom: 30px;
+    }
+
+    .lippyD-wrap {
+        padding: 0 20px;
+    }
+}
