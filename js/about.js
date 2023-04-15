@@ -24,8 +24,9 @@ const aboutJS = {
                                 <img src="" alt="" width="300" height="300">
                                 <div>
                                     <a href="${data.tw}">
-                                    <img src="" alt="" width="30" height="30">
-                                    <span>${data.tw}</span>
+                                        <img src="" alt="" width="30" height="30">
+                                        <span>${data.tw}</span>
+                                    </a>
                                 </div>
                             </div>
                         <div>
