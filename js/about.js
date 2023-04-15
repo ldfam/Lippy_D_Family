@@ -1,7 +1,7 @@
 const aboutJS = {
     temp: (data) => `<div class="lippyD-about" data-about="${data.query}">
                         <h3>${data.name}/${data.eng}</h3>
-                        <div class="lippyD-about-wrapper>
+                        <div class="lippyD-about-wrapper">
                         <div class="lippyD-about-content1">
                             <div class="lippyD-about-set">
                                 <div>ポジション</div>
