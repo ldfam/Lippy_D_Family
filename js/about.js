@@ -18,7 +18,7 @@ const aboutJS = {
                                 <div>主なゲーム作品</div>
                                 <div>${aboutJS.getGames(data)}</div>
                             </div>
-                        <div>
+                        </div>
                         <div class="lippyD-about-content2">
                             <div id="imgs">
                                 <img src="" alt="" width="300" height="300">
@@ -29,13 +29,13 @@ const aboutJS = {
                                     </a>
                                 </div>
                             </div>
-                        <div>
+                        </div>
                         <div class="lippyD-about-content3">
                             <div class="lippyD-about-set youtube-content">
                                 <div>おすすめ動画</div>
                                 <div>${aboutJS.getYT(data)}</div>
                             </div>
-                        <div>
+                        </div>
                     </div>`,
     getLikes: (data) => {
         let html = "";
