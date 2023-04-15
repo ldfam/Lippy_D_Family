@@ -22,10 +22,10 @@ const aboutJS = {
                         </div>
                         <div class="lippyD-about-content2">
                             <div id="imgs">
-                                <img src="" alt="" width="300" height="300">
+                                <img src="${data.img}" alt="" width="300" height="300">
                                 <div>
                                     <a href="${data.tw}">
-                                        <img src="" alt="" width="30" height="30">
+                                        <img src="https://drive.google.com/uc?export=view&id=1gxz2CYGmtEoF0W_JNIll4R3UlB9YUtam" alt="logo" width="30" height="30">
                                         <span>${data.tw}</span>
                                     </a>
                                 </div>

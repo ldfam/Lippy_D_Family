@@ -107,7 +107,6 @@ $(window).on('load', function () {
             scroll > heightVolume ? nav.classList.add("view"): nav.classList.remove("view");
         }
         window.addEventListener("scroll", fn);
-        setModalEvent()
     }
 
     function setModalEvent() {
@@ -122,4 +121,5 @@ $(window).on('load', function () {
             }
         });
     }
+    setModalEvent()
 });
