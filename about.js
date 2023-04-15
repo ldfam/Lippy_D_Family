@@ -38,17 +38,17 @@ const aboutJS = {
                     </div>`,
     getLikes: (data) => {
         let html = "";
-        data.like.forEach((like) => html += `<li><p>${like}</p></li>`);
+        data.like.forEach((like) => html += `<div><span>${like}</span></div>`);
         return html;
     },
     getGames: (data) => {
         let html = "";
-        data.game.forEach((game) => html += `<li><p>${game}</p></li>`);
+        data.game.forEach((game) => html += `<div><span>${game}</span></div>`);
         return html;
     },
     getYT: (data)=>{
         let html = "";
-        data.yt.forEach((yt) => html += `<li><div class="yt-wrap"><iframe width="100%" height="100%" src="${yt}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></li>`)
+        data.yt.forEach((yt) => html += `<div><div class="yt-wrap"><iframe width="100%" height="100%" src="${yt}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div>`)
         return html;
     },
     fn: () => {
