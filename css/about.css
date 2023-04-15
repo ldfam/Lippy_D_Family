@@ -5,6 +5,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     font-family: 'DotGothic16', sans-serif;
+    font-size: 1.2rem;
 }
 .lippyD-about-content1{grid-area: 1 / 1 / 2 / 3;}
 .lippyD-about-content2{grid-area: 1 / 3 / 2 / 4;}
