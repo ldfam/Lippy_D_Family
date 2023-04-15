@@ -4,20 +4,20 @@ const aboutJS = {
                         <div class="lippyD-about-wrapper">
                         <div class="lippyD-about-content1">
                             <div class="lippyD-about-set">
-                                <div>ポジション</div>
-                                <div>${data.state}</div>
+                                <div class="left" >ポジション</div>
+                                <div class="right">${data.state}</div>
                             </div>
                             <div class="lippyD-about-set">
-                                <div>プロフィール</div>
-                                <div>${data.disc}</div>
+                                <div class="left" >プロフィール</div>
+                                <div class="right">${data.disc}</div>
                             </div>
                             <div class="lippyD-about-set">
-                                <div>好きなこと</div>
-                                <div>${aboutJS.getLikes(data)}</div>
+                                <div class="left" >好きなこと</div>
+                                <div class="right">${aboutJS.getLikes(data)}</div>
                             </div>
                             <div class="lippyD-about-set">
-                                <div>主なゲーム作品</div>
-                                <div>${aboutJS.getGames(data)}</div>
+                                <div class="left" >主なゲーム作品</div>
+                                <div class="right">${aboutJS.getGames(data)}</div>
                             </div>
                         </div>
                         <div class="lippyD-about-content2">
@@ -34,7 +34,7 @@ const aboutJS = {
                         <div class="lippyD-about-content3">
                             <div class="lippyD-about-set youtube-content">
                                 <div>おすすめ動画</div>
-                                <div>${aboutJS.getYT(data)}</div>
+                                <div class="yt-wrapper">${aboutJS.getYT(data)}</div>
                             </div>
                         </div>
                         </div>
