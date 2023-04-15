@@ -1,0 +1,26 @@
+.lippyD-about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: 'DotGothic16', sans-serif;
+}
+.lippyD-about-content1{grid-area: 1 / 1 / 2 / 3;}
+.lippyD-about-content2{grid-area: 1 / 3 / 2 / 4;}
+.lippyD-about-content3{grid-area: 2 / 1 / 3 / 4;}
+.lippyD-about-set{
+    display: flex;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.lippyD-about-set>.left{
+    max-width: 150px;
+    width: 30%;
+}
+
+.lippyD-about-set>.right>div{
+    margin-bottom: 0.35rem;
+}
+.youtube-content{display: block;}
+.yt-wrapper{display: flex; gap: 20px;}
