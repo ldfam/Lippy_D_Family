@@ -1,10 +1,10 @@
 const aboutJS = {
     temp: (data) => `<div class="lippyD-about" data-about="${data.query}">
-                        <h3>${data.name}/${data.eng}</h3>
+                        <h3>${data.name} / ${data.eng}</h3>
                         <div class="lippyD-about-wrapper">
                         <div class="lippyD-about-content1">
                             <div class="lippyD-about-set">
-                                <div class="left" >ポジション</div>
+                                <div class="left">ポジション</div>
                                 <div class="right">${data.state}</div>
                             </div>
                             <div class="lippyD-about-set">
@@ -24,9 +24,8 @@ const aboutJS = {
                             <div id="imgs">
                                 <img src="${data.img}" alt="" width="300" height="300">
                                 <div>
-                                    <a href="${data.tw}">
-                                        <img src="https://drive.google.com/uc?export=view&id=1gxz2CYGmtEoF0W_JNIll4R3UlB9YUtam" alt="logo" width="30" height="30">
-                                        <span>${data.tw}</span>
+                                    <a href="https://twitter.com/${data.tw}">
+                                        <img src="https://drive.google.com/uc?export=view&id=1gxz2CYGmtEoF0W_JNIll4R3UlB9YUtam" alt="logo" width="30" height="30"><span>${data.tw}</span>
                                     </a>
                                 </div>
                             </div>
