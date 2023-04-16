@@ -27,15 +27,19 @@
 .yt-wrapper{
     display: flex;
     gap: 20px;
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
 }
 .yt-wrapper>div{
     width: 33.3%;
 }
 .blue-bird{
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
+}
+.blue-bird>a{
+    display: flex;
+    justify-content: center;
 }
 .tw-id{
-    margin-left: 0.2rem;
+    margin-left: 0.5rem;
     color: #fff;
 }
