@@ -107,11 +107,14 @@ button {
     transform: scaleY(0.8);
 }
 
-@media (min-width: 721px) {
+@media (min-width: 720px) {
+    
     .l-sidenav__trigger {
         height: 100%;
         transform: translate(0, 0);
         width: 100%;
+        left: 0;
+        bottom: 25px;
     }
 
     .l-sidenav__line {
@@ -121,5 +124,27 @@ button {
         position: absolute;
         top: 22px;
         left: 12px;
+    }
+}
+@media (max-width: 721px){
+    #g-nav{
+        visibility: hidden;
+    }
+    .l-sidenav__trigger__ttl{
+        display: none;
+    }
+    .l-sidenav__line{
+        visibility: visible;
+        left: -10px;
+        bottom: 0px;
+        top: auto;
+        /* transform: translate(-50%, -50%); */
+    }
+    .l-sidenav__trigger {
+        height: 100%;
+        transform: translate(0, 0);
+        width: 100%;
+        left: 50%;
+        bottom: 25px;
     }
 }
