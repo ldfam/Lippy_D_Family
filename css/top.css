@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-#lippyD, #yt-content {
+#lippyD, #yt-content, #yt-url {
     width: 100%;
     background-color: #24262b;
     color: #fff;
@@ -13,13 +13,18 @@
 
 .lippyD-wrap {
     max-width: 1200px;
-    margin: 40px auto 0;
+    margin: 80px auto 0;
     padding: 0 80px;
     text-align: center;
 }
 
 #yt-content .lippyD-wrap {
     margin-bottom: 40px;
+}
+
+#yt-url{
+    height: 175px;
+    text-align: center;
 }
 
 .yt-grid {
@@ -122,5 +127,8 @@
         top: 0;
         bottom: 50px;
         height: calc(100vw - 30px);
+    }
+    .btn, a.btn, button.btn{
+        font-size: 1.2rem;
     }
 }

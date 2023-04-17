@@ -135,7 +135,12 @@
             }
         };
 
-        window.addEventListener("resize", initScene);
+        var currentWidth = window.innerWidth;
+        window.addEventListener("resize", function(){
+            if(currentWidth == this.window.innerWidth) return
+            initScene;
+            currentWidth = window.innerWidth;
+        });
 
         initScene();
 

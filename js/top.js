@@ -1,6 +1,6 @@
 const topJS = {
     html: (url) => {
-        return `<div class="yt-wrap"><iframe width="100%" height="100%" src="${url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>`
+        return `<div class="yt-wrap fadeUpTrigger"><iframe width="100%" height="100%" src="${url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>`
     },
     createYT: () =>{
         const wrap = document.querySelector(".yt-grid");

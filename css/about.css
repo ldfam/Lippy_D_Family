@@ -9,7 +9,7 @@
 }
 .lippyD-about-content1{grid-area: 1 / 1 / 2 / 3;}
 .lippyD-about-content2{grid-area: 1 / 3 / 2 / 4;}
-.lippyD-about-content3{grid-area: 2 / 1 / 3 / 4; height: fit-content;}
+.lippyD-about-content3{grid-area: 2 / 1 / 3 / 4; height: fit-content; margin-top: 0.5rem;}
 .lippyD-about-set{
     display: flex;
     text-align: left;
@@ -18,10 +18,21 @@
 .lippyD-about-set>.left{
     max-width: 180px;
     width: 30%;
+    font-weight: bold;
+}
+.yt-title{
+    font-weight: bold;
+}
+.lippyD-about-set>.right{
+    width: 70%;
+    font-size: 1.1rem;
 }
 
 .lippyD-about-set>.right>div{
     margin-bottom: 0.35rem;
+}
+.lippyD-about{
+    margin-bottom: 40px;
 }
 .youtube-content{display: block; margin-bottom: 0;}
 .yt-wrapper{
@@ -38,8 +49,70 @@
 .blue-bird>a{
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 .tw-id{
     margin-left: 0.5rem;
     color: #fff;
+}
+.lippyD-abouts-detail{
+    margin-bottom: 80px;
+}
+
+@media (max-width: 721px) {
+    .lippyD-wrap{
+        margin: 50px auto 0;
+    }
+    .lippyD-abouts-detail{
+        margin-bottom: 50px;
+    }
+    .lippyD-about-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .lippyD-about-content2{
+        order: 1
+    }
+    .lippyD-about-content1{
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .lippyD-about-content3{
+        order: 3
+    }
+    .lippyD-about-set>.left{
+        width: 45%;
+    }
+    .lippyD-about-set>.right{
+        width: 55%;
+    }
+    .lippyD-about-content1>.lippyD-about-set:not(.prof){
+        order: 1;
+    }
+    .prof{
+        order: 2;
+        display: block;
+    }
+    .prof .left{
+        display:block;
+        margin-bottom: 0.5rem;
+
+    }
+    .prof .right{
+        width: 100%;
+    }
+    .yt-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 0.2rem;
+    }
+    .yt-wrapper>div{
+        width: 100%;
+    }
+    .yt-wrapper>div:nth-of-type(3){
+        display: none;
+    }
 }

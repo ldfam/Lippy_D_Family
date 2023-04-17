@@ -4,9 +4,9 @@ $(function () {
     $("#g-nav").load("./nav.html");
 });
 $(window).on('load', function () {
-    $("#splash-logo").delay(1200).fadeOut('slow');//ロゴを1.2秒でフェードアウトする記述
+    $("#splash-logo").delay(800).fadeOut('slow');//ロゴを1.2秒でフェードアウトする記述
     //=====ここからローディングエリア（splashエリア）を1.5秒でフェードアウトした後に動かしたいJSをまとめる
-    $("#splash").delay(1300).fadeOut('slow', function () {//ローディングエリア（splashエリア）を1.5秒でフェードアウトする記述
+    $("#splash").delay(1000).fadeOut('slow', function () {//ローディングエリア（splashエリア）を1.5秒でフェードアウトする記述
         $('body').addClass('appear');//フェードアウト後bodyにappearクラス付与
         if (!document.getElementById("particle")) return;
         particlesJS("particles-js", {
@@ -95,6 +95,10 @@ $(window).on('load', function () {
                 });
             }
             huckScrollEvent();
+            fadeAnime();
+            $(window).scroll(function () {
+                fadeAnime();/* アニメーション用の関数を呼ぶ*/
+            });
         });
     });
     //=====ここまで背景が伸びた後に動かしたいJSをまとめる
@@ -102,9 +106,9 @@ $(window).on('load', function () {
         const fn = () => {
             const nav = document.getElementById("g-nav");
             const container = document.getElementById("particles-js");
-            const heightVolume = !!container? container.clientHeight: 0;
+            const heightVolume = !!container ? container.clientHeight : 0;
             const scroll = window.pageYOffset;
-            scroll > heightVolume ? nav.classList.add("view"): nav.classList.remove("view");
+            scroll > heightVolume ? nav.classList.add("view") : nav.classList.remove("view");
         }
         window.addEventListener("scroll", fn);
     }
@@ -118,6 +122,22 @@ $(window).on('load', function () {
             },
             after_close: function () {
                 $('html').css('overflow-y', 'scroll');
+            }
+        });
+    }
+
+    function fadeAnime() {
+        //ふわっと動くきっかけのクラス名と動きのクラス名の設定
+        $('.fadeUpTrigger').each(function () { //fadeInUpTriggerというクラス名が
+            var elemPos = $(this).offset().top + 50; //要素より、50px上の
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll >= elemPos - windowHeight) {
+                $(this).addClass('fadeUp');
+                // 画面内に入ったらfadeInというクラス名を追記
+            } else {
+                $(this).removeClass('fadeUp');
+                // 画面外に出たらfadeInというクラス名を外す
             }
         });
     }

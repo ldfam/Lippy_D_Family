@@ -83,10 +83,10 @@ const userData = [
         eng  : "HINAJO",
         query: "hinajo",
         state: "モデレーター",
-        tw   : "",
+        tw   : "wn2yoga",
         img  : "https://drive.google.com/uc?export=view&id=1cavEkDiWoeHFlCBEjYvG1aHje4Ur-auw",
         disc : "真面目だけどノリの良いオールマイティな女の子、風紀委員長",
-        like : ["エステ", "タピオカ"],
+        like : ["エステ", "タピオカ", "リッピーDファミリー"],
         game : [""],
         yt   : [
             "https://www.youtube.com/embed/Mq2MNQq4opQ",

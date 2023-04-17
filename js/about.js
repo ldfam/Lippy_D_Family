@@ -1,5 +1,5 @@
 const aboutJS = {
-    temp: (data) => `<div class="lippyD-about" data-about="${data.query}">
+    temp: (data) => `<div class="lippyD-about fadeUpTrigger" data-about="${data.query}">
                         <h3><span>${data.name} / ${data.eng}</span></h3>
                         <div class="lippyD-about-wrapper">
                         <div class="lippyD-about-content1">
@@ -7,8 +7,8 @@ const aboutJS = {
                                 <div class="left">ポジション</div>
                                 <div class="right">${data.state}</div>
                             </div>
-                            <div class="lippyD-about-set">
-                                <div class="left" >プロフィール</div>
+                            <div class="lippyD-about-set prof">
+                                <div class="left">プロフィール</div>
                                 <div class="right">${data.disc}</div>
                             </div>
                             <div class="lippyD-about-set">
@@ -33,7 +33,7 @@ const aboutJS = {
                         </div>
                         <div class="lippyD-about-content3">
                             <div class="lippyD-about-set youtube-content">
-                                <div>おすすめ動画</div>
+                                <div class="yt-title">おすすめ動画</div>
                                 <div class="yt-wrapper">${aboutJS.getYT(data)}</div>
                             </div>
                         </div>
