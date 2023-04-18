@@ -61,6 +61,7 @@ h1>a {
 .btn,
 a.btn,
 button.btn {
+    font-family: 'DotGothic16', sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 1.5;
@@ -290,6 +291,34 @@ body.appear #particles-js {
     opacity: 0;
 }
 
+.fire_flower{
+    position: fixed;
+    opacity: 0.75;
+    pointer-events: none;
+}
+.fire_flower>img{
+    height: 100%;
+    width: 100%;
+}
+.fire_flower01{
+    top: 60vh;
+    left: 0vw;
+}
+.fire_flower02{
+    top: 37vh;
+    left: 70vw;
+}
+
+.fire_flower03{
+    top: -1vh;
+    left: 10vw;
+}
+
+.fire_flower04{
+    top: -4vw;
+    left: 80vw;
+}
+
 @keyframes PageAnimeAppear {
     0% {
         opacity: 0;
@@ -359,5 +388,27 @@ body.appear #particles-js {
         font-size: 0.85rem;
         line-height: 2rem;
         letter-spacing: 0.2rem;
+    }
+    .fire_flower{
+        width: 182px;
+        height: 215px;
+    }
+    .fire_flower01{
+        top: 70vh;
+        left: -10vw;
+    }
+    .fire_flower02{
+        top: 80vh;
+        left: 70vw;
+    }
+    
+    .fire_flower03{
+        top: 10vh;
+        left: -20vw;
+    }
+    
+    .fire_flower04{
+        top: -5vh;
+        left: 75vw;
     }
 }

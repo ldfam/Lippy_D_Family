@@ -33,7 +33,9 @@
     grid-auto-rows: 220px;
     gap: 20px;
 }
-
+.yt-wrap{
+    z-index: 1;
+}
 .yt-wrap iframe {
     aspect-ratio: 16 / 9;
 }
