@@ -85,7 +85,7 @@ const userData = [
         state: "モデレーター",
         tw   : "wn2yoga",
         img  : "https://drive.google.com/uc?export=view&id=1cavEkDiWoeHFlCBEjYvG1aHje4Ur-auw",
-        disc : "リッピーDの風紀委員長！ <br class='pc'>真面目だけどノリの良いという<br class='pc'>オールマイティな女の子。イメージカラーは「ピンク」",
+        disc : "リッピーDの風紀委員長！ <br class='pc'>真面目だけど、ノリの良さも持ち合わせている<br class='pc'>オールマイティ女子。イメージカラーは「ピンク」",
         like : ["エステ", "タピオカ", "リッピーDファミリー"],
         game : [""],
         yt   : [
