@@ -24,7 +24,7 @@ const aboutJS = {
                             <div id="imgs">
                                 <img src="${data.img}" alt="" width="300" height="300">
                                 <div class="blue-bird">
-                                    <a href="https://twitter.com/${data.tw}">
+                                    <a href="https://twitter.com/${data.tw}" target="_blank">
                                         <img src="https://drive.google.com/uc?export=view&id=1gxz2CYGmtEoF0W_JNIll4R3UlB9YUtam" alt="logo" width="30" height="30">
                                         <span class="tw-id">${data.tw}</span>
                                     </a>
