@@ -16,6 +16,7 @@
     max-width: 1200px;
     margin: 80px auto 0;
     text-align: center;
+    list-style: none;
 }
 
 #lippyD-mes-ul>.li{
@@ -25,14 +26,25 @@
     padding: 20px 0;
     cursor: pointer;
 }
+#lippyD-mes-ul>.li>a{
+    text-decoration: none;
+    color: initial;
+}
 
-#lippyD-mes-ul>.li>.name,
-#lippyD-mes-ul>.li>.minmes{
+#lippyD-mes-ul>.li>a>.name,
+#lippyD-mes-ul>.li>a>.minmes{
     padding: 0 40px;
     line-height: 2;
     pointer-events: none;
+    transition: all 0.2s;
+    text-decoration: none;
 }
 
-#lippyD-mes-ul>.li>.name{
+#lippyD-mes-ul>.li:hover>a>.name,
+#lippyD-mes-ul>.li:hover>a>.minmes{
+    opacity: 0.5;
+}
+
+#lippyD-mes-ul>.li>a>.name{
     font-weight: bold;
 }
