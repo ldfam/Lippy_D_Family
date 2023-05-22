@@ -99,6 +99,8 @@ $(window).on('load', function () {
             $(window).scroll(function () {
                 fadeAnime();/* アニメーション用の関数を呼ぶ*/
             });
+            setModalEvent()
+            makeFireFlower()
         });
     });
     //=====ここまで背景が伸びた後に動かしたいJSをまとめる
@@ -114,6 +116,7 @@ $(window).on('load', function () {
     }
 
     function setModalEvent() {
+        console.log($(".modal-open"))
         $(".modal-open").modaal({
             start_open: false,
             overlay_close: true,
@@ -125,7 +128,7 @@ $(window).on('load', function () {
             }
         });
     }
-    function makeFireFlower(){
+    function makeFireFlower() {
         const dataList = [
             { cls: "fire_flower01", img: "10AeHxIfq3GmmBT31QNW72RfLZhUAlcw8" },
             { cls: "fire_flower02", img: "17W4Yr-UiN_TtVd67_FCin042JAzAyA7k" },
@@ -135,11 +138,11 @@ $(window).on('load', function () {
         const fn = () => {
             dataList.forEach((data, index) => {
                 setTimeout(() => {
-                  const gif = document.createElement("img");
-                  const img = document.querySelector(`.${data.cls}`)
-                  gif.src = `https://drive.google.com/uc?id=${data.img}`;
-                  img.appendChild(gif);
-                }, 1800 * index);
+                    const gif = document.createElement("img");
+                    const img = document.querySelector(`.${data.cls}`)
+                    gif.src = `https://drive.google.com/uc?id=${data.img}`;
+                    img.appendChild(gif);
+                }, 1200 * index);
             });
         }
         fn();
@@ -160,6 +163,4 @@ $(window).on('load', function () {
             }
         });
     }
-    setModalEvent()
-    makeFireFlower()
 });
