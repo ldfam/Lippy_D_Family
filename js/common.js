@@ -139,7 +139,6 @@ $(window).on('load', function () {
                   const img = document.querySelector(`.${data.cls}`)
                   gif.src = `https://drive.google.com/uc?id=${data.img}`;
                   img.appendChild(gif);
-                  console.log("check")
                 }, 1800 * index);
             });
         }
