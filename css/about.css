@@ -86,6 +86,7 @@
     .lippyD-about-content3{
         order: 3
     }
+
     .lippyD-about-set>.left{
         width: 45%;
     }
@@ -94,6 +95,9 @@
     }
     .lippyD-about-content1>.lippyD-about-set:not(.prof){
         order: 1;
+    }
+    .lippyD-about-content1>.lippyD-about-set:not(.prof) .right{
+        text-indent: 0.5rem;
     }
     .prof{
         order: 2;
