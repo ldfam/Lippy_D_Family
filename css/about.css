@@ -71,6 +71,8 @@
     .lippyD-about-wrapper{
         display: flex;
         flex-direction: column;
+        font-size: 1rem;
+        letter-spacing: 2px;
     }
     .lippyD-about-content2{
         order: 1
