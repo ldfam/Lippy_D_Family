@@ -145,6 +145,10 @@ a.btn-radius-solid:hover {
     width: calc(100vw - 40px);
 }
 
+.modaal-container{
+    box-shadow: none !important;
+}
+
 /*========= ローディング画面のためのCSS ===============*/
 #splash {
     position: fixed;

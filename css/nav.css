@@ -41,6 +41,9 @@ button {
 }
 .modaal-container {
     background: transparent;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
 }
 
 .l-sidenav__trigger {

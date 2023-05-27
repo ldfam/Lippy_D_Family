@@ -116,7 +116,6 @@ $(window).on('load', function () {
     }
 
     function setModalEvent() {
-        console.log($(".modal-open"))
         $(".modal-open").modaal({
             start_open: false,
             overlay_close: true,
