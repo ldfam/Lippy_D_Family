@@ -1,4 +1,4 @@
-#lippyD-mes-wrap{
+#lippyD-mes-wrap {
     margin-top: 0;
     padding-top: 20px;
     background-color: #24262b;
@@ -6,7 +6,7 @@
     background-color: #24262b;
 }
 
-#lippyD-mes-ul{
+#lippyD-mes-ul {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -19,20 +19,21 @@
     justify-content: center;
 }
 
-#lippyD-mes-ul>.li{
+#lippyD-mes-ul>.li {
     width: calc((100% - 40px) / 3);
     background-color: #fff;
     border-radius: 5px;
     padding: 20px 0;
     cursor: pointer;
 }
-#lippyD-mes-ul>.li>a{
+
+#lippyD-mes-ul>.li>a {
     text-decoration: none;
     color: initial;
 }
 
 #lippyD-mes-ul>.li>a>.name,
-#lippyD-mes-ul>.li>a>.minmes{
+#lippyD-mes-ul>.li>a>.minmes {
     padding: 0 40px;
     line-height: 2;
     pointer-events: none;
@@ -42,20 +43,23 @@
 }
 
 #lippyD-mes-ul>.li:hover>a>.name,
-#lippyD-mes-ul>.li:hover>a>.minmes{
+#lippyD-mes-ul>.li:hover>a>.minmes {
     opacity: 0.5;
 }
 
-#lippyD-mes-ul>.li>a>.name{
+#lippyD-mes-ul>.li>a>.name {
     font-weight: bold;
 }
-#lippyD-mes-ul>.li>a>.minmes{
+
+#lippyD-mes-ul>.li>a>.minmes {
     text-align: start;
 }
-#modal_mes{
+
+#modal_mes {
     display: none;
 }
-.modal-wrapper{
+
+.modal-wrapper {
     background-color: #fff;
     padding: 20px 30px;
     max-width: 500px;
@@ -65,40 +69,46 @@
     border-radius: 5px;
     list-style: none;
 }
-.modal-wrapper .hidden{
-    display: none !important ;
+
+.modal-wrapper .hidden {
+    display: none !important;
 }
-.modal-wrapper .modal{
+
+.modal-wrapper .modal {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    max-height: 500px;
+    overflow-y: auto;
 }
-.modal-wrapper .name{
+
+.modal-wrapper .name {
     text-align: center;
     font-weight: bold;
 }
-@media (max-width: 721px){
-    #lippyD-mes-ul{
+
+@media (max-width: 721px) {
+    #lippyD-mes-ul {
         margin: 0 20px;
         display: block;
     }
-    #lippyD-mes-ul>.li{
+
+    #lippyD-mes-ul>.li {
         width: 100%;
         margin-bottom: 20px;
     }
-    #lippyD-mes-ul>.li>a>.name, #lippyD-mes-ul>.li>a>.minmes{
+
+    #lippyD-mes-ul>.li>a>.name, #lippyD-mes-ul>.li>a>.minmes {
         padding: 0 20px;
     }
-    .modal-wrapper{
+
+    .modal-wrapper {
         line-height: 1.5;
         letter-spacing: 2px;
         padding: 20px 15px;
     }
-    .modal-wrapper .modal{
-        max-height: 500px;
-        overflow-y: auto;
-    }
-    .modaal-content-container{
+
+    .modaal-content-container {
         padding: 0 !important;
     }
 }
