@@ -10,7 +10,7 @@ const userData = [
         like : ["歌", "掃除", "ランニング"],
         game : ["Apex Legends", "Fortnite", "Phasmophobia"],
         yt   : [
-            "https://www.youtube.com/embed/NyPCRDTuOKM",
+            "https://www.youtube.com/embed/P_K5nGWeIXY",
             "https://www.youtube.com/embed/FrOT5eNY-do",
             "https://www.youtube.com/embed/XvfyGywI9x8",
         ]
@@ -88,7 +88,7 @@ const userData = [
         img  : "https://drive.google.com/uc?export=view&id=1cavEkDiWoeHFlCBEjYvG1aHje4Ur-auw",
         disc : "リッピーDの風紀委員長！ <br class='pc'>真面目だけど、ノリの良さも持ち合わせている<br class='pc'>オールマイティ女子。イメージカラーは「ピンク」",
         like : ["エステ", "タピオカ", "リッピーDファミリー"],
-        game : [""],
+        game : ["配信中の風紀防衛"],
         yt   : [
             "https://www.youtube.com/embed/JH478Km6_hY",
             "https://www.youtube.com/embed/gqLWYEexQBE",
