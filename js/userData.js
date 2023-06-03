@@ -11,8 +11,8 @@ const userData = [
         game : ["Apex Legends", "Fortnite", "Phasmophobia"],
         yt   : [
             "https://www.youtube.com/embed/NyPCRDTuOKM",
-            "https://www.youtube.com/embed/QP1kHOQ__CI",
-            "https://www.youtube.com/embed/XvfyGywI9x8"
+            "https://www.youtube.com/embed/FrOT5eNY-do",
+            "https://www.youtube.com/embed/XvfyGywI9x8",
         ]
     },
     {
@@ -28,7 +28,7 @@ const userData = [
         yt   : [
             "https://www.youtube.com/embed/oh2DfWOb_aM",
             "https://www.youtube.com/embed/UXCvyr-dg_E",
-            "https://www.youtube.com/embed/nmcyk_hgw_E"
+            "https://www.youtube.com/embed/1Jhb7fx8VdU"
         ]
     },
     { 
@@ -40,11 +40,11 @@ const userData = [
         img  : "https://drive.google.com/uc?export=view&id=1jVhfXmJISildhFZ_HRMSfBp95_hHJfe_",
         disc : "リッピーDの圧倒的低音ボイス！ <br class='pc'>クールな性格だが急に昇天。絶対的安定感で <br class='pc'>チームを後ろから支える存在。イメージカラーは「緑」",
         like : ["筋トレ","料理","旅行"],
-        game : ["Apex Legends", "Fortnite", "MINECRAFT"],
+        game : ["Apex Legends", "Fortnite", "龍が如く"],
         yt   : [
             "https://www.youtube.com/embed/AtGuH2rvGFA",
             "https://www.youtube.com/embed/A_Xl7n70XaM",
-            "https://www.youtube.com/embed/cx2UBgwe8fk"
+            "https://www.youtube.com/embed/mHuhuc3xPso"
         ]
     },
     {
@@ -59,7 +59,7 @@ const userData = [
         game : ["Apex Legends","Over Watch2", "原神"],
         yt   : [
             "https://www.youtube.com/embed/bgkE5U45raM",
-            "https://www.youtube.com/embed/xRdqJQX7PA4",
+            "https://www.youtube.com/embed/6UTPXoCzcfE",
             "https://www.youtube.com/embed/Er_dUGaTjrA"
         ]
     },
@@ -76,7 +76,8 @@ const userData = [
         yt   : [
             "https://www.youtube.com/embed/c-SlxH9aaas",
             "https://www.youtube.com/embed/1VXXwsczbqY",
-            "https://www.youtube.com/embed/1yqSaIGLZXg"]
+            "https://www.youtube.com/embed/06c5aJLvHZo"
+        ]
     },
     {
         name : "雛田結奈",
@@ -89,7 +90,7 @@ const userData = [
         like : ["エステ", "タピオカ", "リッピーDファミリー"],
         game : [""],
         yt   : [
-            "https://www.youtube.com/embed/Mq2MNQq4opQ",
+            "https://www.youtube.com/embed/JH478Km6_hY",
             "https://www.youtube.com/embed/gqLWYEexQBE",
             "https://www.youtube.com/embed/-ChWN5kb-Oc"
         ]
