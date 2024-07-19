@@ -100,7 +100,6 @@ $(window).on('load', function () {
                 fadeAnime();/* アニメーション用の関数を呼ぶ*/
             });
             setModalEvent()
-            makeFireFlower()
         });
     });
     //=====ここまで背景が伸びた後に動かしたいJSをまとめる
@@ -126,25 +125,6 @@ $(window).on('load', function () {
                 $('html').css('overflow-y', 'scroll');
             }
         });
-    }
-    function makeFireFlower() {
-        const dataList = [
-            { cls: "fire_flower01", img: "10AeHxIfq3GmmBT31QNW72RfLZhUAlcw8" },
-            { cls: "fire_flower02", img: "17W4Yr-UiN_TtVd67_FCin042JAzAyA7k" },
-            { cls: "fire_flower03", img: "11UNNAWigMPUkwEFFQ4hvSF1nILinMEvO" },
-            { cls: "fire_flower04", img: "1yyoUP_krVj9xLtVHyLoXxLnk_Zo5OeUz" },
-        ]
-        const fn = () => {
-            dataList.forEach((data, index) => {
-                setTimeout(() => {
-                    const gif = document.createElement("img");
-                    const img = document.querySelector(`.${data.cls}`)
-                    gif.src = `https://drive.google.com/uc?id=${data.img}`;
-                    img.appendChild(gif);
-                }, 1200 * index);
-            });
-        }
-        fn();
     }
 
     function fadeAnime() {

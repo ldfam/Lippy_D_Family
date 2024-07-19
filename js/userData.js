@@ -5,13 +5,13 @@ const userData = [
         query: "deen",
         state: "リーダー",
         tw   : "family_zzz",
-        img  : "https://drive.google.com/uc?export=view&id=1q4UMqxyfdMbuc7SfGVTATH6nUbqbrhBQ",
+        img  : "image/p3NRa4zS_400x400.jpg",
         disc : "リッピーDファミリーのリーダー！ <br class='pc'>マイペースな印象だが熱く頼れる男🔥 <br class='pc'>たまに寝落ち、、。イメージカラーは「赤」",
         like : ["歌", "掃除", "ランニング"],
         game : ["Apex Legends", "Fortnite", "Phasmophobia"],
         yt   : [
-            "https://www.youtube.com/embed/P_K5nGWeIXY",
-            "https://www.youtube.com/embed/FrOT5eNY-do",
+            "https://www.youtube.com/embed/7U_Npcz05JU",
+            "https://www.youtube.com/embed/lHTp0TejKfU",
             "https://www.youtube.com/embed/XvfyGywI9x8",
         ]
     },
@@ -21,14 +21,14 @@ const userData = [
         query: "hime",
         state: "初期メンバー",
         tw   : "ami_milet",
-        img  : "https://drive.google.com/uc?export=view&id=1om49ObQIJkvtSqM_xtClXvF1HMyJxi9Q",
+        img  : "image/NI_M951s_400x400.jpg",
         disc : "リッピーDの天然ガール！ <br class='pc'>いつも明るく元気な性格でチームの雰囲気を<br class='pc'>明るくしてくれる存在🔆イメージカラーは「黄」",
         like : ["ファッション","買い物","睡眠"],
         game : ["DISNEY", "Fortnite", "FF10"],
         yt   : [
+            "https://www.youtube.com/embed/QwOJr6OKPnI",
             "https://www.youtube.com/embed/oh2DfWOb_aM",
             "https://www.youtube.com/embed/UXCvyr-dg_E",
-            "https://www.youtube.com/embed/1Jhb7fx8VdU"
         ]
     },
     { 
@@ -37,14 +37,14 @@ const userData = [
         query: "tony",
         state: "初期メンバー",
         tw   : "lifeline_over",
-        img  : "https://drive.google.com/uc?export=view&id=1jVhfXmJISildhFZ_HRMSfBp95_hHJfe_",
+        img  : "image/5JRP2mxR_400x400.jpg",
         disc : "リッピーDの圧倒的低音ボイス！ <br class='pc'>クールな性格だが急に昇天。絶対的安定感で <br class='pc'>チームを後ろから支える存在。イメージカラーは「緑」",
         like : ["筋トレ","料理","旅行"],
         game : ["Apex Legends", "Fortnite", "龍が如く"],
         yt   : [
+            "https://www.youtube.com/embed/c6vbMWdkji0",
+            "https://www.youtube.com/embed/ktgEjKhKNnk",
             "https://www.youtube.com/embed/AtGuH2rvGFA",
-            "https://www.youtube.com/embed/A_Xl7n70XaM",
-            "https://www.youtube.com/embed/mHuhuc3xPso"
         ]
     },
     {
@@ -53,30 +53,30 @@ const userData = [
         query: "karin",
         state: "サブメンバー",
         tw   : "KarinKouya",
-        img  : "https://drive.google.com/uc?export=view&id=138ImOSHss9c_H4F5NLO3cRZ4HP1Xx8m-",
+        img  : "image/SMgbuFIG_400x400.jpg",
         disc : "リッピーDの癒し系＆愛されキャラ！<br class='pc'>控えめな性格でチームを見守っている。<br class='pc'>たまに関西弁。イメージカラーは「青」",
         like : ["ファッション","アニメ","ゲーム"],
         game : ["Apex Legends","Over Watch2", "原神"],
         yt   : [
+            "https://www.youtube.com/embed/rz5dOYSG3x4",
             "https://www.youtube.com/embed/bgkE5U45raM",
             "https://www.youtube.com/embed/6UTPXoCzcfE",
-            "https://www.youtube.com/embed/Er_dUGaTjrA"
         ]
     },
     {
         name : "天丼マン",
         eng  : "TENDON",
         query: "tendon",
-        state: "サブメンバー",
+        state: "サブメンバー / ギター",
         tw   : "sorafurai",
-        img  : "https://drive.google.com/uc?export=view&id=1jAXgii282jruy7tKw-h7eJbCL42svQZp",
-        disc : "リッピーDファミリー最強のムードメーカー！<br class='pc'>おふざけと真面目さを兼ね備えてる変態！ <br class='pc'>よ！！変態！！ イメージカラーは「紫」",
+        img  : "image/Ns0IWmxh_400x400.jpg",
+        disc : "リッピーDファミリー最強のムードメーカー！<br class='pc'>おふざけと真面目さを兼ね備えてる変態！ <br class='pc'><a target='_blank' href='https://www.youtube.com/watch?v=p5vT76iy9TI&list=PLLCXKWh40cv1dxqjbelFf7H1NvP6SJj7R'>弾き語り配信やってます！</a> イメージカラーは「紫」",
         like : ["ギター","育児"],
         game : ["フォートナイト", "マリオカート8DX", "戦国乙女"],
         yt   : [
+            "https://www.youtube.com/embed/O0coeLKY54k",
             "https://www.youtube.com/embed/c-SlxH9aaas",
-            "https://www.youtube.com/embed/1VXXwsczbqY",
-            "https://www.youtube.com/embed/06c5aJLvHZo"
+            "https://www.youtube.com/embed/p5vT76iy9TI"
         ]
     },
     {
@@ -85,12 +85,12 @@ const userData = [
         query: "hinajo",
         state: "モデレーター",
         tw   : "wn2yoga",
-        img  : "https://drive.google.com/uc?export=view&id=1cavEkDiWoeHFlCBEjYvG1aHje4Ur-auw",
+        img  : "image/1uczS_n4_400x400.jpg",
         disc : "リッピーDの風紀委員長！ <br class='pc'>真面目だけど、ノリの良さも持ち合わせている<br class='pc'>オールマイティ女子。イメージカラーは「ピンク」",
         like : ["エステ", "タピオカ", "リッピーDファミリー"],
         game : ["配信中の風紀防衛"],
         yt   : [
-            "https://www.youtube.com/embed/JH478Km6_hY",
+            "https://www.youtube.com/embed/ww-JGLcqOFU",
             "https://www.youtube.com/embed/gqLWYEexQBE",
             "https://www.youtube.com/embed/-ChWN5kb-Oc"
         ]
